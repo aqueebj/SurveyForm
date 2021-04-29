@@ -1,0 +1,8 @@
+---
+- name: Pull docker image of Survey Form
+  hosts: all
+  tasks:
+    - name: Pull Node App image
+      docker_image:
+        name: aqueebj/survey_test
+        source: pull
