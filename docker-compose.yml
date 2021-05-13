@@ -11,6 +11,6 @@ services:
  mongo:
  	image: mongo
 	volumes:
-    - ./data:/data/db
+	- ./data:/data/db
  	ports:
  	- "5000:5000"
