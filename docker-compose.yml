@@ -1,16 +1,14 @@
-version: "2"
+version: "1"
 services:
  webapp:
  	container_name: survey
 	restart: always
  	build: .
- 	ports:
- 	- "3000:3000"
+ 	ports: - "3000:3000"
  	depends_on:
  	- mongo
  mongo:
  	image: mongo
-	volumes:
-	- ./data:/data/db
+	volumes: - ./data:/data/db
  	ports:
  	- "5000:5000"
