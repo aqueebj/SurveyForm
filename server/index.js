@@ -9,7 +9,7 @@ require('dotenv/config')
 const cors = require("cors");
 const router = require('./routes/router')
 
-const uri="mongodb://localhost/forms";
+const uri="mongodb://mongo:27017/forms";
 //db
 mongoose.connect(uri,{
     useUnifiedTopology: true,
