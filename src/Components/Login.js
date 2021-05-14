@@ -1,4 +1,4 @@
-import { GoogleLogin, GoogleLogout } from 'react-google-login';
+import { GoogleLogin, GoogleLogout } from 'react-google-login/dist/google-login';
 import authService from '../services/authService';
 import { useHistory } from "react-router-dom";
 import React from 'react';
@@ -14,7 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import ViewListIcon from '@material-ui/icons/ViewList';
 
-import GoogleButton from 'react-google-button'
+import GoogleButton from 'react-google-button/dist/react-google-button'
 import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles((theme) => ({
