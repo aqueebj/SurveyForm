@@ -4,5 +4,5 @@
   tasks:
     - name: Pull Node App image
       docker_image:
-        name: aqueebj/survey_test
+        name: aqueebj/survey-test
         source: pull
